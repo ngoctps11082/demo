@@ -1,0 +1,109 @@
+body{
+    margin:0;
+}
+table{
+    border-spacing: 0px;
+    width: 100%;
+    min-height: 90vh;
+    font-family: Roboto;
+    margin-bottom: 1%;
+}
+td,th{
+    padding: 10px;
+
+}
+th{
+    border: 1px #dadada solid;
+    border-bottom: 1px #aaa9a9 solid;
+    text-align: left;
+}
+td{
+    vertical-align: top;
+    border: 1px #dadada solid;
+    font-size: 14px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2; 
+}
+.left{
+    float: left;
+    width: 40%;
+}
+.right{
+    float: right;
+}
+.right>a{
+    padding: 5px 10px;
+    border: 1px #dadada solid;
+    text-decoration: none;
+    color: #29a8dd;
+    margin: 0;
+    width: 20px;
+    border-radius: 3px;
+}
+.right>a:hover{
+    color: white;
+    background-color: #29a8dd;
+}
+.Active,.Inactive,.Banned{
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+.Active{
+    background-color: #6fb590;
+}
+.Inactive{
+    background-color: #1e1f23;
+}
+.Banned{
+    background-color: #f56c64;
+}
+.Pending{
+    background-color: #edcd66;
+    padding: 5px;
+    border-radius: 3px;
+}
+td>i{
+    text-align: center;
+    width: 25px;
+    padding: 4px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.them{
+    background-color: #4fbc78;
+}
+.sua{
+    background-color: #69bfd6;
+    color: #1e1f23;
+}
+.xoa{
+    background-color: #f56c64;
+}
+.them:hover{
+    background-color: white;
+    color: #4fbc78;
+}
+.xoa:hover{
+    color: #f56c64;
+    background-color: white;
+}
+.sua:hover{
+    background-color: #1e1f23;
+    color: #69bfd6;
+}
+th>i{
+    float: right;
+    color: #aaa9a9;
+}
+th>i:hover{
+    color: #1e1f23;
+}
+body>div{
+    font-family: Roboto;
+    font-size: 14px;
+}
+tr:hover{
+    background-color: #807a7a;
+}

@@ -1,0 +1,169 @@
+body{
+    font-family: Roboto;
+    margin: 0;
+    font-size: 18px;
+}
+.font12{
+    font-size: 12px;
+}
+.center{
+    text-align: center;
+}
+nav table{
+    border-spacing: 4px;
+}
+nav table td{
+    padding-right:8px; 
+}
+
+nav{
+    width: 100%;
+    min-height: 88px;;
+    background-color: #405d9b;
+}
+nav img{
+    width: 17%;
+    float: left;
+    margin-top: 30px; 
+}
+nav form{
+    float: right;
+    color: white;
+    margin-top: 10px;
+}
+.boxcenter{
+    width: 73%;
+    margin: 0 auto;
+}
+nav input[type="password"],nav input[type="text"]{
+    width: 145px;
+
+}
+nav input[type="submit"]{
+    background-color: #4267b2;
+    color: white;
+    border: 1px #29487d solid;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 12px;
+}
+nav input[type="submit"]:hover{
+    background-color: #29487d;
+}
+.full{
+    width: 100%;
+}
+nav form a{
+    color: #8ca6ce;
+    text-decoration: none;
+    font-size: 12px;
+}
+nav form a:hover{
+    text-decoration: underline;
+}
+.boxleft,.boxright{
+    width: 50%;
+    float: left;
+}
+.boxleft h1{
+    color: #0e385f;
+    margin-top: 50px;
+    font-size: 20px;
+    width: 90%;
+}
+.boxright{
+    width: 41.5%;
+    margin-left: 8%;
+}
+.bg{
+    background-image: linear-gradient(to bottom,#fdfefe,#d8dcea);
+    min-height: 95vh;
+}
+.boxright>h1{
+    font-size: 38px;
+    color: #333333;
+    margin: 18px 0 15px 8px;
+}
+.boxright>h2{
+    margin-bottom: 15px;
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.boxright table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.boxright table input[type="text"],.boxright table input[type="email"],.boxright table input[type="password"]{
+    width: 92%;
+    min-height: 30px;
+    border-radius: 5px;
+    border: 1px #bdc7d8 solid;
+    font-size: 18px;
+    padding: 2% 5%;;
+
+}
+
+.boxright table input[type="email"],.boxright table input[type="password"]{
+    width: 202%;
+}
+.boxright td{
+    padding: 1.25% 2%;
+}
+form>div{
+    margin-left: 2%;
+}
+.boxright h3{
+    font-size: 17px;
+    color: #a0a4ac;
+    margin: 15px 0 10px 0;
+}
+.gender{
+    margin-right: 5px;
+}
+form select{
+    padding-right: 10px;
+    min-height: 30px;
+}
+.question{
+    color: #666666;
+    margin: 0 8px;
+}
+.dieukhoan{
+    font-size: 11.5px;
+    width: 80%;
+    color: #83868d;
+}
+.dieukhoan>a{
+    font-size: 11.5px;
+    text-decoration: none;
+    color: #405d9b;
+}
+.dieukhoan>a:hover,.taotrang>a:hover{
+    text-decoration: underline;
+}
+.boxright input[type="submit"]{
+    width: 49%;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(to top right, #538540, #64a852);
+    padding: 8px 0;
+    border: 0.5px #2c5115 solid;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.boxright input[type="submit"]:hover{
+    background-image: linear-gradient(to top right, #538540, #75b760);
+}
+.taotrang{
+    width: 100%;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 500;
+}
+.taotrang>a{
+    text-decoration: none;
+    color: #3858a2;
+}
